@@ -1,0 +1,40 @@
+## ddeploying ML model on AZURE  ( app created with FastAPI from github)
+
+
+
+
+
+
+FAST API::::
+
+run fastapi--> uvicorn main:app --reload    ## main is python file name and app is fastAPI instance
+swagger --> to check if model working fine -->  http://127.0.0.1:8000/docs
+
+
+
+
+
+
+lifecycle-->
+
+1. train the model
+
+2. test and evaluate the model
+
+3. used fastapi for web app (Wrap up the model)
+
+4. push to github 
+
+
+5. deploy to cloud
+
+
+
+
+
+
+
+
+
+#### Deployment on cloud (azure) with github (no cicd, no container)
+
